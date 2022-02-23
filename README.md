@@ -2,6 +2,11 @@
 
 👉[在HackMD瀏覽](https://hackmd.io/@tyzx5246/ryvhJsBQF)
 
+### :bookmark:一般檔案操作架構
+```sequence
+工作目錄->暫存區: git add <file>
+暫存區->儲存庫: git commit -m"紀錄訊息"
+```
 - `git add <file>` 將當前位於工作目錄的檔案加入暫存區。
 - `git commit -m"紀錄訊息"` 將目前位於暫存區的檔案提交到儲存庫。
 - `git commit -am"紀錄訊息"` 如果檔案夾已加入「git控管」，  
