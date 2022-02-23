@@ -1,24 +1,34 @@
-# Git Note
+# 將檔案上傳到GitHub流程
 
-👉[在HackMD瀏覽](https://hackmd.io/@tyzx5246/ryvhJsBQF)
+## 檔案上傳三部曲
+```git
+# 1. 將test.py加入暫存區
+git add test.py
 
-![](https://i.imgur.com/WdWsT1I.png)
-git 版本控制基本架構（[來源]
+# 2. 將test.py提交檔案到儲存庫，記錄版本訊息
+git commit -m "版本訊息"
 
-## :bookmark:一般檔案操作架構
-```sequence
-工作目錄->暫存區: git add <file>
-暫存區->儲存庫: git commit -m"紀錄訊息"
+# 3. 將test.py上傳
+git push -u origin main
 ```
-- `git add <file>` 將當前位於工作目錄的檔案加入暫存區。
-- `git commit -m"紀錄訊息"` 將目前位於暫存區的檔案提交到儲存庫。
-- `git commit -am"紀錄訊息"` 如果檔案夾已加入「git控管」，  
- 用`git commit -am` 一次完成`git add`＋`git commit -m`兩個步驟。
- 
-- == 工作目錄(Working directory) == Git 相關操作都會在這個目錄下完成
-- == 暫存區(Staging area) == 放準備要提交到儲存庫的檔案
-- == 儲存庫(Repository) == 是記錄檔案或目錄狀態的地方
-- **:triangular_flag_on_post:每次提交檔案時** 建議(修改)小而(功能)完整
+![](https://i.imgur.com/qWcgYG1.png)
 
+## 第一次上傳
+先在GitHub建立一個coding的專案
 
+```git
+# 1. 產生README.md檔案
+echo "# coding" >> README.md
+# 2. 將資料夾初始化，交給git託管
+git init
+# 3. 將README.md加入暫存區
+git add README.md
+# 4. 將README.md提交檔案到儲存庫，記錄版本訊息
+git commit -m "first commit"
+# 5. 把資料夾跟雲端上的GitHub專案做連結
+git remote add origin https://github.com/zoelin2022/coding.git
+# 6. 將README.md上傳
+git push -u origin main
+```
+![](https://i.imgur.com/RuyEucO.png)
 
