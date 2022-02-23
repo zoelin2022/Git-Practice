@@ -2,9 +2,9 @@
 
 👉[在HackMD瀏覽](https://hackmd.io/@tyzx5246/ryvhJsBQF)
 :::info
-- ==工作目錄(Working directory)== Git 相關操作都會在這個目錄下完成
-- ==暫存區(Staging area)== 放準備要提交到儲存庫的檔案
-- ==儲存庫(Repository)== 是記錄檔案或目錄狀態的地方
+- == 工作目錄(Working directory) == Git 相關操作都會在這個目錄下完成
+- == 暫存區(Staging area) == 放準備要提交到儲存庫的檔案
+- == 儲存庫(Repository) == 是記錄檔案或目錄狀態的地方
 - **:triangular_flag_on_post:每次提交檔案時** 建議(修改)小而(功能)完整
 
 ![](https://i.imgur.com/WdWsT1I.png)
