@@ -2,7 +2,11 @@
 
 👉[在HackMD瀏覽](https://hackmd.io/@tyzx5246/ryvhJsBQF)
 
-### :bookmark:一般檔案操作架構
+## :bookmark:一般檔案操作架構
+
+![](https://i.imgur.com/WdWsT1I.png)
+git 版本控制基本架構（[來源]
+
 ```sequence
 工作目錄->暫存區: git add <file>
 暫存區->儲存庫: git commit -m"紀錄訊息"
