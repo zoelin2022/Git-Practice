@@ -12,7 +12,5 @@
 - == 儲存庫(Repository) == 是記錄檔案或目錄狀態的地方
 - **:triangular_flag_on_post:每次提交檔案時** 建議(修改)小而(功能)完整
 
-![](https://i.imgur.com/WdWsT1I.png)
-git 版本控制基本架構（[來源](https://vocus.cc/article/5de3dbb8fd89780001d599fc)）
 
 
